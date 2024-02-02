@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./src/dist/rentacrusicelogo.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    
+    <title>RentaCruise</title>
+</head>
+<body class="h-full bg-background-lightgrey">
+    <header class="w-fill bg-background-grey">
+        <div class="grid grid-cols-4 mx-8 py-4">
+            <div class="flex justify-center items-center">
+                <img src="./src/dist/rentacrusicelogo.svg" alt="">
+                <h1 class="ml-5 text-lg text-white font-Jakarta font-bold">RentaCruise</h1>
+            </div>
+            <div class="flex col-span-2 justify-center items-center gap-16">
+                <a class="text-base text-Neon-Green font-Poppins underline underline-offset-8" href="">Home</a>
+                <a class="text-base text-white font-Poppins" href="">Our Service</a>
+                <a class="text-base text-white font-Poppins" href="">About Us</a>
+                <a class="text-base text-white font-Poppins" href="">Cars</a>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="flex bg-Neon-Green px-8 py-2 gap-2 cursor-pointer">
+                    <h1 class="text-white font-Jakarta font-bold">Try Us</h1>
+                    <img src="./src/dist/arrowbutton.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="MainHero" class="h-full bg-black overflow-hidden bg-no-repeat" style="background-image: url('./src/dist/backgroundhero.png');">
+        <div class="opacity-0">1</div>
+        <div class="grid grid-cols-2 mt-16 mx-80 gap-8">
+            <div class="items-center">
+                <h1 class="text-5xl text-white font-Jakarta font-bold">We Serve The<br>Best Cars</h1>
+            </div>
+            <div class="items-center">
+                <h1 class="text-sm text-white font-Jakarta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quidem?</h1>
+                <div class="mt-4 flex w-fit bg-Neon-Green px-8 py-2 gap-2 cursor-pointer">
+                    <h1 class="text-white font-Jakarta font-bold">Try Us</h1>
+                    <img src="./src/dist/arrowbutton.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-4 mt-48 mx-40">
+            <div class="flex justify-center items-center">
+                <h1 class="text-3xl text-white text-end font-Jakarta font-bold tracking-wide">25.000+<br><span class="text-base font-light">Reviews</span></h1>
+                <img class="ml-4" src="./src/dist/dotgreen.svg" alt="">
+            </div>
+            <div class="col-span-2"></div>
+            <div class="flex justify-center items-center">
+                <img class="mr-4" src="./src/dist/dotgreen.svg" alt="">
+                <h1 class="text-3xl text-white font-Jakarta font-bold tracking-wide">200.000+<br><span class="text-base font-light">Clients Served</span></h1>
+            </div>
+        </div>
+        <div class="mt-28 py-12 bg-gradient-to-t from-background-grey">
+            <h1 class="opacity-0">1</h1>
+        </div>
+    </section>
+    <section id="Services" class="bg-background-grey">
+        <div class="grid grid-cols-6 mx-12 gap-16">
+            <div class="w-fit mx-auto my-auto">
+                <img src="./src/dist/mitsubishi.svg" alt="">
+            </div>
+            <div class="w-fit mx-auto my-auto">
+                <img src="./src/dist/honda.svg" alt="">
+            </div>
+            <div class="w-fit mx-auto my-auto">
+                <img src="./src/dist/nissan.svg" alt="">
+            </div>
+            <div class="w-fit mx-auto my-auto">
+                <img src="./src/dist/tesla.svg" alt="">
+            </div>
+            <div class="w-fit mx-auto my-auto">
+                <img src="./src/dist/bmw.svg" alt="">
+            </div>
+            <div class="w-fit mx-auto my-auto">
+                <img src="./src/dist/toyota.svg" alt="">
+            </div>
+        </div>
+        <h1 class="mt-24 text-white text-center font-Jakarta tracking-widest">Our Services</h1>
+        <h1 class="mt-4 text-white text-center text-5xl font-Jakarta font-semibold tracking-wide">What We <span class="text-Neon-Green">Serve</span><br>To Our Client <span class="text-Neon-Green">?</span></h1>
+        <h1 class="mt-12 pb-56 text-white text-center text-sm font-Jakarta">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Officia possimus quos minima quasi ratione quo sequi inventore vitae enim at?</h1>
+    </section>
+    <section id="Card" class="grid grid-cols-3 mx-12 -mt-36 justify-center items-center gap-12">
+        <div class="mx-auto bg-white w-10/12 border-t-8 border-Neon-Green shadow-2xl">
+            <img src="./src/dist/car.svg" alt="" class="mt-8 mx-auto">
+            <h1 class="mt-8 text-2xl text-center font-Jakarta">Quality Is Our<br>Priority.</h1>
+            <h1 class="mt-8 mb-12 w-5/6 mx-auto text-sm text-center font-Jakarta font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sunt adipisci corrupti tempora harum quam?.</h1>
+        </div>
+        <div class="mx-auto bg-white w-10/12 border-t-8 border-Neon-Green shadow-2xl">
+            <img src="./src/dist/locationlogo.svg" alt="" class="mt-8 mx-auto">
+            <h1 class="mt-8 text-2xl text-center font-Jakarta">Service Anywhere And<br>Everywhere.</h1>
+            <h1 class="mt-8 mb-12 w-5/6 mx-auto text-sm text-center font-Jakarta font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sunt adipisci corrupti tempora harum quam?.</h1>
+        </div>
+        <div class="mx-auto bg-white w-10/12 border-t-8 border-Neon-Green shadow-2xl">
+            <img src="./src/dist/solar_tag-price-bold.svg" alt="" class="mt-8 mx-auto">
+            <h1 class="mt-8 text-2xl text-center font-Jakarta">Best Services With<br>Affordable Prices.</h1>
+            <h1 class="mt-8 mb-12 w-5/6 mx-auto text-sm text-center font-Jakarta font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sunt adipisci corrupti tempora harum quam?.</h1>
+        </div>
+    </section>
+    <section id="Reasons" class="grid grid-cols-6 mx-12 mt-36 justify-center items-center gap-8">
+        <div class="col-span-2">
+            <h1 class="font-Jakarta tracking-widest">Reasons</h1>
+        </div>
+        <div class="">1</div>
+        <div class="">1</div>
+        <div class="">1</div>
+        <div class="">1</div>
+    </section>
+</body>
+</html>
