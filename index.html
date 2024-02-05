@@ -17,7 +17,7 @@
     <title>RentaCruise</title>
 </head>
 <body class="h-full bg-background-lightgrey">
-    <header class="w-fill bg-background-grey">
+    <header class="fixed w-full bg-background-grey border-b-2 border-gray-400 border-opacity-25 shadow-xl">
         <div class="grid grid-cols-4 mx-8 py-4">
             <div class="flex justify-center items-center">
                 <img src="./src/dist/rentacrusicelogo.svg" alt="">
@@ -37,7 +37,7 @@
             </div>
         </div>
     </header>
-    <section id="MainHero" class="h-full bg-black overflow-hidden bg-no-repeat" style="background-image: url('./src/dist/backgroundhero.png');">
+    <section id="MainHero" class="h-full pt-16 bg-black overflow-hidden bg-no-repeat" style="background-image: url('./src/dist/backgroundhero.png'); background-position: center;">
         <div class="opacity-0">1</div>
         <div class="grid grid-cols-2 mt-16 mx-80 gap-8">
             <div class="items-center">
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-4 mt-48 mx-40">
+        <div class="grid grid-cols-4 mt-48 mx-24">
             <div class="flex justify-center items-center">
                 <h1 class="text-3xl text-white text-end font-Jakarta font-bold tracking-wide">25.000+<br><span class="text-base font-light">Reviews</span></h1>
                 <img class="ml-4" src="./src/dist/dotgreen.svg" alt="">
@@ -62,12 +62,12 @@
                 <h1 class="text-3xl text-white font-Jakarta font-bold tracking-wide">200.000+<br><span class="text-base font-light">Clients Served</span></h1>
             </div>
         </div>
-        <div class="mt-28 py-12 bg-gradient-to-t from-background-grey">
+        <div class="mt-12 pt-24 bg-gradient-to-t from-background-grey">
             <h1 class="opacity-0">1</h1>
         </div>
     </section>
-    <section id="Services" class="bg-background-grey">
-        <div class="grid grid-cols-6 mx-12 gap-16">
+    <section id="Services" class="mt-0 bg-background-grey">
+        <div class="grid grid-cols-6 pt-12 mx-12 gap-16">
             <div class="w-fit mx-auto my-auto">
                 <img src="./src/dist/mitsubishi.svg" alt="">
             </div>
@@ -91,31 +91,79 @@
         <h1 class="mt-4 text-white text-center text-5xl font-Jakarta font-semibold tracking-wide">What We <span class="text-Neon-Green">Serve</span><br>To Our Client <span class="text-Neon-Green">?</span></h1>
         <h1 class="mt-12 pb-56 text-white text-center text-sm font-Jakarta">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Officia possimus quos minima quasi ratione quo sequi inventore vitae enim at?</h1>
     </section>
-    <section id="Card" class="grid grid-cols-3 mx-12 -mt-36 justify-center items-center gap-12">
-        <div class="mx-auto bg-white w-10/12 border-t-8 border-Neon-Green shadow-2xl">
+    <section id="Card" class="grid grid-cols-3 mx-24 -mt-36 justify-center items-center gap-8">
+        <div class="mx-auto bg-white w-11/12 border-t-8 border-Neon-Green shadow-2xl">
             <img src="./src/dist/car.svg" alt="" class="mt-8 mx-auto">
             <h1 class="mt-8 text-2xl text-center font-Jakarta">Quality Is Our<br>Priority.</h1>
             <h1 class="mt-8 mb-12 w-5/6 mx-auto text-sm text-center font-Jakarta font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sunt adipisci corrupti tempora harum quam?.</h1>
         </div>
-        <div class="mx-auto bg-white w-10/12 border-t-8 border-Neon-Green shadow-2xl">
+        <div class="mx-auto bg-white w-11/12 border-t-8 border-Neon-Green shadow-2xl">
             <img src="./src/dist/locationlogo.svg" alt="" class="mt-8 mx-auto">
             <h1 class="mt-8 text-2xl text-center font-Jakarta">Service Anywhere And<br>Everywhere.</h1>
             <h1 class="mt-8 mb-12 w-5/6 mx-auto text-sm text-center font-Jakarta font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sunt adipisci corrupti tempora harum quam?.</h1>
         </div>
-        <div class="mx-auto bg-white w-10/12 border-t-8 border-Neon-Green shadow-2xl">
+        <div class="mx-auto bg-white w-11/12 border-t-8 border-Neon-Green shadow-2xl">
             <img src="./src/dist/solar_tag-price-bold.svg" alt="" class="mt-8 mx-auto">
             <h1 class="mt-8 text-2xl text-center font-Jakarta">Best Services With<br>Affordable Prices.</h1>
             <h1 class="mt-8 mb-12 w-5/6 mx-auto text-sm text-center font-Jakarta font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sunt adipisci corrupti tempora harum quam?.</h1>
         </div>
     </section>
-    <section id="Reasons" class="grid grid-cols-6 mx-12 mt-36 justify-center items-center gap-8">
-        <div class="col-span-2">
-            <h1 class="font-Jakarta tracking-widest">Reasons</h1>
+    <section id="Reasons" class="">
+        <div id="WhyChooseUs" class="flex mx-12 mt-36 justify-center items-center gap-12">
+            <div class="">
+                <h1 class="font-Jakarta tracking-widest">Reasons</h1>
+                <h1 class="text-5xl font-Jakarta tracking-widest">Why <span class="text-Neon-Green">Choose </span>Us <span class="text-Neon-Green">?</span></h1>
+            </div>
+            <div class="">
+                <h1 class="text-3xl text-Neon-Green font-Jakarta font-bold">25.000+</h1>
+                <h1 class="font-Jakarta">Reviews</h1>
+            </div>
+            <div class="">
+                <h1 class="text-3xl text-Neon-Green font-Jakarta font-bold">200.000+</h1>
+                <h1 class="font-Jakarta">Clients Served</h1>
+            </div>
+            <div class="">
+                <h1 class="text-3xl text-Neon-Green font-Jakarta font-bold">3.200+</h1>
+                <h1 class="font-Jakarta">Workers</h1>
+            </div>
+            <div class="">
+                <h1 class="text-3xl text-Neon-Green font-Jakarta font-bold">224</h1>
+                <h1 class="font-Jakarta">Branch Offices</h1>
+            </div>
         </div>
-        <div class="">1</div>
-        <div class="">1</div>
-        <div class="">1</div>
-        <div class="">1</div>
+        <div id="ReasonsInside" class="mt-24">
+            <div id="ReasonsTop" class="w-fit mx-auto">
+                <div class="flex justify-center items-center gap-8">
+                    <img src="./src/dist/settings-logo.svg" alt="">
+                    <h1 class="text-2xl font-Jakarta">Flexible Options</h1>
+                </div>
+                <h1 class="mt-4 text-sm font-Jakarta text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Iusto, laudantium. Cupiditate delectus inventore<br>accusantium omnis ut unde id iusto dignissimos.</h1>
+            </div>
+            <div id="ReasonsMiddle" class="mt-12 grid grid-cols-3 mx-12 gap-8">
+                <div class="">
+                    <div class="flex justify-center items-center gap-8">
+                        <img src="./src/dist/briefcase.svg" alt="">
+                        <h1 class="text-2xl font-Jakarta">Simple and Practical</h1>
+                    </div>
+                    <h1 class="mt-4 text-sm font-Jakarta text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Iusto, laudantium. Cupiditate delectus inventore<br>accusantium omnis ut unde id iusto dignissimos.</h1>
+                </div>
+                <img src="./src/dist/car-reasons.svg" alt="" class="w-fit mx-auto">
+                <div class="">
+                    <div class="flex justify-center items-center gap-8">
+                        <img src="./src/dist/pricetag.svg" alt="">
+                        <h1 class="text-2xl font-Jakarta">Economist and Affordable</h1>
+                    </div>
+                    <h1 class="mt-4 text-sm font-Jakarta text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Iusto, laudantium. Cupiditate delectus inventore<br>accusantium omnis ut unde id iusto dignissimos.</h1>
+                </div>
+            </div>
+            <div id="ReasonsBottom" class="mt-12 w-fit mx-auto">
+                <div class="flex justify-center items-center gap-8">
+                    <img src="./src/dist/clock.svg" alt="">
+                    <h1 class="text-2xl font-Jakarta">24 Hours Services</h1>
+                </div>
+                <h1 class="mt-4 text-sm font-Jakarta text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Iusto, laudantium. Cupiditate delectus inventore<br>accusantium omnis ut unde id iusto dignissimos.</h1>
+            </div>
+        </div>
     </section>
 </body>
 </html>
